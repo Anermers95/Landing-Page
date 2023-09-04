@@ -2,20 +2,32 @@
 {
     background-color: #1F2937;
     color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 0
 }
+
+
 body{
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    margin: 0
 }
 
 ul{
     display: flex;
     justify-content: space-evenly;
+    left: -100px;
+    position: relative;
+
 }
 
 li{
     margin-right: 30px;
     list-style-type: none;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,21 +36,28 @@ li{
 a{
     color: white;
     font-weight: bold;
+    text-decoration:none;
     font-size: 20px;
+}
+
+.site-name
+{
+   font-size: 30px;
+   padding-right: 530px;
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
     margin-bottom: 30px;
-    margin-left: 10px;
-
+    width: 100%;
 }
 
 .topContent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .heroMain{
@@ -49,16 +68,57 @@ a{
 
 .topcontent-left{
    display: flex;
+   padding:20px;
+   flex-shrink: 0;
    flex-grow: 0;
- 
 }
 .heroSecondary-text
 {
-    width: 300px;
+    width: 500px;
     font-size: 18px;
-    word-wrap: break-word;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hero-image{
+    text-align: center;
+    width: 500px;
+    height:auto;
+}
+.Overhero-image
+{
+    position: absolute;
+    width: 180px;
+    height: auto;
+    left: 400px;
+    bottom: 320px;
+}
+
+.lowerUpper-header
+{
+    margin-bottom: 100px;
+}
+
+.lowerUpper-body
+{
+    background-color: white;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lowerUpper-images
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lowerUpperImage-container
+{
+    margin: 0 40px 20px 40px;
     text-align: center;
 }
