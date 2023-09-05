@@ -7,13 +7,11 @@
     padding-bottom: 120px;
     display: flex;
     flex-direction: column;
-    margin: 0
+    overflow: hidden
 }
-
-
 body{
-    width: 100%;
-    margin: 0
+    
+    margin: 0;
 }
 
 ul{
@@ -85,6 +83,7 @@ a{
     text-align: center;
     width: 500px;
     height:auto;
+    flex-grow: 0;
 }
 .Overhero-image
 {
@@ -103,11 +102,13 @@ a{
 .lowerUpper-body
 {
     background-color: white;
-    margin-top: 80px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden
+
 }
 
 .lowerUpper-images
@@ -121,4 +122,76 @@ a{
 {
     margin: 0 40px 20px 40px;
     text-align: center;
+}
+
+.quote-section
+{
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+    margin: 0 100px 0 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signup-section
+{
+    background-color: white;
+    padding: 100px;
+}
+
+.signup-container
+{
+    border-radius: 25px;
+    background-color: #3882F6;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.signup-text
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-text1, .signup-text2
+{
+    margin: 0;
+}
+
+.signup-btn
+{
+   color: white;
+   border-radius: 15px;
+   height: 50px;
+   width: 100px;
+   margin: auto 0;
+   border-color: white;
+   background-color: #3882F6;
+}
+
+.footer
+{
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
